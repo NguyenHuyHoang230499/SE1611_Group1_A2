@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Name="btAlbum" Content="Check function album" Width="150" Height="100" Click="btAlbum_Click"/>
     </Grid>
 </Window>

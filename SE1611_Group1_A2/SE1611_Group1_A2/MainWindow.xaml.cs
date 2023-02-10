@@ -24,5 +24,12 @@ namespace SE1611_Group1_A2
         {
             InitializeComponent();
         }
+
+        private void btAlbum_Click(object sender, RoutedEventArgs e)
+        {
+            AlbumWindow aw = new AlbumWindow();
+            aw.Show();
+            this.Close();
+        }
     }
 }
